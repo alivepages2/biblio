@@ -7,7 +7,7 @@
       <amplify-sign-out></amplify-sign-out>
     </div>
 
-    <div class="card">
+    <div class="card mt-4 mb-3">
       <div>Libros</div>
     </div>
 
