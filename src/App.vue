@@ -20,7 +20,7 @@
       <div class="card-body">
         <h5 class="card-title">{{ libro.name }}</h5>
         <p class="card-text">{{ libro.descripcion }}.</p>
-        <a href="#" class="card-link">Pedir pretamo</a>
+        <a href="#" class="card-link">Pedir préstamo</a>
       </div>
     </div>
   </div>
