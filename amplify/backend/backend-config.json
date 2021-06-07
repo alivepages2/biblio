@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "biblio06887d6e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

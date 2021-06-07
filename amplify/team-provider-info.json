@@ -10,6 +10,11 @@
       "StackName": "amplify-biblio-dev-101644",
       "StackId": "arn:aws:cloudformation:us-east-1:171362004211:stack/amplify-biblio-dev-101644/612fc790-c7a3-11eb-924e-0eb35faf783f",
       "AmplifyAppId": "d1csvfngo47jkd"
+    },
+    "categories": {
+      "auth": {
+        "biblio06887d6e": {}
+      }
     }
   }
 }
