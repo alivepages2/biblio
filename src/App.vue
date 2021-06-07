@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <div>
-      <amplify-authenticator></amplify-authenticator>
-    </div>
     <div class="Welcome to library">
+      <h1>Librería Patito</h1>
       <amplify-sign-out></amplify-sign-out>
     </div>
-
-    <div class="card mt-4 mb-3">
-      <div>Libros</div>
-    </div>
-
-    <div
-      class="card"
-      style="width: 18rem;"
-      v-for="libro of libros"
-      :key="libro.id"
-    >
-      <div class="card-body">
-        <h5 class="card-title">{{ libro.name }}</h5>
-        <p class="card-text">{{ libro.descripcion }}.</p>
-        <a href="#" class="card-link">Pedir préstamo</a>
+    <amplify-authenticator>
+      <div class="card mt-4 mb-3">
+        <div>Libros</div>
       </div>
-    </div>
+
+      <div
+        class="card"
+        style="width: 18rem;"
+        v-for="libro of libros"
+        :key="libro.id"
+      >
+        <div class="card-body">
+          <h5 class="card-title">{{ libro.name }}</h5>
+          <p class="card-text">{{ libro.descripcion }}.</p>
+          <a href="#" class="card-link">Pedir préstamo</a>
+        </div>
+      </div>
+    </amplify-authenticator>
   </div>
 </template>
 
